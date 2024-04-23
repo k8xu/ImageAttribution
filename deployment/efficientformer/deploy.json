@@ -1,0 +1,16 @@
+{
+    "version": "1.3.1",
+    "task": "Classifier",
+    "models": [
+        {
+            "name": "efficientformer",
+            "net": "end2end.pt",
+            "weights": "",
+            "backend": "torchscript",
+            "precision": "FP32",
+            "batch_size": 1,
+            "dynamic_shape": false
+        }
+    ],
+    "customs": []
+}
